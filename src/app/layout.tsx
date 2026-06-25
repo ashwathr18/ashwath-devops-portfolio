@@ -17,13 +17,13 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.name} | Full-Stack Web Developer`,
+    default: `${siteConfig.name} `,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   openGraph: {
-    title: `${siteConfig.name} | Full-Stack Web Developer`,
+    title: `${siteConfig.name} `,
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | Full-Stack Web Developer`,
+    title: `${siteConfig.name} `,
     description: siteConfig.description,
   },
 };
