@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,92436,e=>{e.q("/portfolio-website/_next/static/media/dev-gif.08nul2pen_i47.svg")}]);
